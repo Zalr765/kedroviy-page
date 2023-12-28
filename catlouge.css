@@ -1,0 +1,110 @@
+body{ 
+    background-color: #2D2D2D; 
+    padding: 0;
+    margin: 0;
+}
+h2,p
+{
+    color: white;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 25px;
+}
+.container
+{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.catolouge-header
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.catolouge-header__wings
+{
+    position: absolute;
+    left: -100px;
+    top: 100px;
+    
+}
+.catolouge-header__wings:last-child
+{
+    transform: scaleX(-1);
+    left: unset;
+    right: -100px;
+}
+.catalouge-header__content-title
+{
+    font-family: 'Poiret One', sans-serif;
+    color: white;
+    font-size: 87px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+
+.catolouge
+{
+    background: url('./assets/bg.png');
+    width: 100%;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 80px;
+}
+.catolouge-block
+{
+    display: flex;
+    background-color: #111111;
+    border-radius:  0 5px 5px 0;
+}
+.catolouge-block:nth-child(even)
+{
+    background-color: #181818;
+}
+.catolouge-block__content
+{
+    padding-left: 76px;
+}
+.catolouge-block__pic { width: 40%; }
+.catolouge-block__content-title
+{
+    color: white;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 365px;
+}
+.catolouge-block__content-subtitle
+{
+    color: white;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 16px;
+    width: 550px;
+}
+.catolouge-block__content-bot
+{
+    display: flex;
+}
+.catolouge-block__content-dilivery{ margin-right: 20%; }
+.catolouge-block__content-dilivery>button
+{
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 16px;
+    padding: 10px 40px;
+}
+.catolouge-block__content-extrim--pics
+{
+    display: flex;
+    justify-content: center;
+}
+.catolouge-block__content-extrim--pics>img
+{
+    margin-right: 9px;
+}
